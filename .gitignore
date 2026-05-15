@@ -1,0 +1,7 @@
+ANDROID_INTERN_ASSIGNMENT.pdf
+assignment.txt
+*.py
+.idea/
+build/
+app/build/
+local.properties

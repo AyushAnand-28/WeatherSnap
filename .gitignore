@@ -2,6 +2,7 @@ ANDROID_INTERN_ASSIGNMENT.pdf
 assignment.txt
 *.py
 .idea/
+.gradle/
 build/
 app/build/
 local.properties

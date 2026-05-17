@@ -3,7 +3,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
-    id("dagger.hilt.android.plugin")
+    id("com.google.dagger.hilt.android")
     id("kotlin-parcelize")
 }
 
@@ -69,7 +69,7 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.0")
 
     // CameraX
-    def camerax_version = "1.3.0"
+    val camerax_version = "1.3.0"
     implementation("androidx.camera:camera-core:${camerax_version}")
     implementation("androidx.camera:camera-camera2:${camerax_version}")
     implementation("androidx.camera:camera-lifecycle:${camerax_version}")
